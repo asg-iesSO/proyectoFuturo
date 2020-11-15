@@ -5,7 +5,7 @@ public class Main {
 
     }
 
-    public static String veredicto(String valor1, String valor2) {
+    private static String veredicto(String valor1, String valor2) {
         String veredictoFinal = "";
         if (valor1.equals(valor2)) {
             veredictoFinal = "Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.";
