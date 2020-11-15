@@ -1,4 +1,6 @@
 public class Main {
+    //Adolfo Sobrino Gomez
+
     public static void main(String[] args) {
         System.out.println("Estudiante " + args[0]);
         System.out.println(veredicto(args[1],args[2]));
